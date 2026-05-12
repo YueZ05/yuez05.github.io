@@ -1,367 +1,898 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Yue Zhang</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/moon.jfif" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Yue Zhang</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="" /></span>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#working-experience">Working Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#research-experience">Research Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#teaching-experience">Teaching Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#project">Project</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                </ul>
-            </div>
-        </nav>
-        <!-- Page Content-->
-        <div class="container-fluid p-0">
-            <!-- About-->
-            <section class="resume-section" id="about">
-                <div class="resume-section-content">
-                    <h1 class="mb-0">
-                        Yue
-                        <span class="text-primary">Zhang</span>
-                    </h1>
-                    <div class="subheading mb-5">
-                        2015 Neil Avenue, Columbus, OH 43210 
-                        <br/ >Email: <a href="mailto:name@email.com">zhang.8016@osu.edu</a>; 
-                    </div>
-                    <p class="lead mb-5">
-                    I am an undergraduate student majoring Computer Science and Engineering at The Ohio State University. I'm expected to graduate in Decemeber 2020. <br />
-                    
-                    </p>
-                    <div class="social-icons">
-                        <a class="social-icon" href=""><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href=""><i class="fab fa-github"></i></a>
-                        
-                    </div>
-                </div>
-            </section>
-            
-            <hr class="m-0" />
-            <!-- Education-->
-            <section class="resume-section" id="education">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
-                <!--    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">University of Colorado Boulder</h3>
-                            <div class="subheading mb-3">Bachelor of Science</div>
-                            <div>Computer Science - Web Development Track</div>
-                            <p>GPA: 3.23</p>
-                        </div>
-                
-                    <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2010</span></div>
-                    </div>
-                -->
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">The Ohio State University</h3>
-                            <div class="subheading mb-3">Bachelor of Science in Computer Science and Engineering with Honor Research Distinction</div>
-                           
-                            <ul >
-                                
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    Dean’s List for all semesters 
-                                </li>
-                                
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    Undergraduate Research Scholarship
-                                </li>
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    Women in Computer Science Scholarship
-                                </li>
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    Secondary Leader at CIS/CSE peer mentor club   
-                                </li>
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    Peer Mentor at CSE department   
-                                </li>
-                               
-                                	
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>Yue Zhang's Homepage - Georgia Southern University</title>
+<script async>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-                            </ul>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2017 - December 2020</span></div>
-                    </div>
-                </div>
-            </section>
-            
-            <hr class="m-0" />
-            <!-- Working Experience-->
-            <section class="resume-section" id="working-experience">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Working Experience</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Software Developer Internship</h3>
-                            <div class="subheading mb-3">Block Eleven LLC</div>
-                            <ul>
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                   Design and develop electronic device selling app in Java
-                                </li>
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    Build functionalities including buy and sell electronic devices, active user list, login/signup etc.  
-                                </li>
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    Develop multiple functionalities, and front-end user interface.
-                                </li>
-                            
-                           </ul> 
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">May 2020 - August 2020</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Student Web Developer</h3>
-                            <div class="subheading mb-3">School of Communication at The Ohio State University</div>
-                            <ul >
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    Develop a website with different categories of readings with Angular JS framework and PHP 
-                                </li>
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    Record users’ reading time for each article. 
-                                </li>
+  ga('create', 'UA-71295941-1', 'auto');
+  ga('send', 'pageview');
 
-                            </ul>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2019 - December 2019</span></div>
-                    </div>
-                
+</script>
+</head>
 
-                </div>
-            </section>
-            
-            <hr class="m-0" />
-            <!-- Research Experience-->
-            <section class="resume-section" id="research-experience">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Research Experience</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Undergraduate Research Assistant</h3>
-                            <div class="subheading mb-3">Department of Computer Science and Engineering (CSE)</div>
-                            <ul >
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    Compare energy consumption of different models on different edge devices
-                                </li>
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    Design configuration management for software updates deployed at the edge
-                                </li>
+<body>
+  <div id="main">
+  	<h1>Yue Zhang <span style="font-family:Georgia,Times New Roman,KaiTi,STKaiti,serif;font-size:32pt"></span></h1>
+  	<div id="header">
+    	<a href="#">Home</a>
+        <!-- <a href="resources/CV_YuSu.pdf">CV</a> -->
+         <!-- <a href="#news">News</a> -->
+        <!-- <a href="#experience">Experience</a> -->
+        <!-- <a href="#awards">Awards</a>
+        <a href="#student">Students</a> -->
+        <a href="#publications">Publications</a>
+        <!-- <a href="#teaching">Teaching</a> -->
+        <!-- <a href="https://github.com/OSU-NLP-Group">Software</a> -->
+        <!-- <a href="#sponsors">Sponsors</a> -->
+        <!-- <a href="#service">Service</a> -->
+	      <a href="#contact">Contact</a>
+        <!--<a href="#teaching">Teaching</a> -->
+        
+    </div>
+    <div id="contentColumn">
 
-                            </ul>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2019 - December 2020</span></div>
-                    </div>
-                  
-                    
-                </div>
-            </section>
-            
-            <hr class="m-0" />
-            <!-- Teaching Experience-->
-            <section class="resume-section" id="teaching-experience">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Teaching Experience</h2>
-                    <li>Perform academic tutoring for students with software and system projects during weekly lab and office hours.               </li>
-                    <li>Grade student projects, algorithm homework, and labs. </li>
-                    <!--
-                    <ul class="fa-ul mb-0">
-                    <li><i class="fa-li fa fa-check"></i><b>Undergraduate Teacing Assistant (UTA): </b><br />Mobile Application Development (CSE 5236)</li>
-					<li><i class="fa-li fa fa-check"></i><b>Undergraduate Teacing Assistant (UTA): </b><br />Systems I: Introduction to Low-Level Programming and Computer Organization (CSE 2421)</li>
-					<li><i class="fa-li fa fa-check"></i><b>Undergraduate Teacing Assistant (UTA): </b><br />Foundations II: Data Structures and Algorithms (CSE 2331)</li>
-                    <li><i class="fa-li fa fa-check"></i><b>Undergraduate Teacing Assistant (UTA): </b><br />Introduction to Computer Programming in Java (CSE 1223)</li>
-                    </ul>
--->
-                </div>
-            </section>
-            
-            <hr class="m-0" />
-            <!-- Project-->
-            <section class="resume-section" id="project">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Project</h2>
-                    
-                   
-                    
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Expiration Date Tracker App</h3>
-                            <ul>
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    Used Java and Android Studio to develop an Expiration Date Tracking mobile app.
-                                </li>
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    Built functionalities including product listing and modification (add, edit, delete), category listing and modification, user information checking, expiration date notification on calendar, barcode scanning for product adding, login/signup, etc. 
-                                </li>
-                            
-                           </ul> 
-                        </div>
-                    </div>
-                    
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Book Exchange Website</h3>
-                            
-                            <ul >
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    Used Ruby on Rails to create a book exchange website for OSU students with school email to login.  
-                                </li>
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    Built functionalities including book filtered searching, book selling, sorting based on conditions and prices, login/signup, personal pages, client/admin views, user protection, etc.
-                                </li>
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    Organized data to provide a clean and cohesive design.
-                                </li>
+	<div class="contentBlock">
+        <h2>About Me</h2>
+        <div class="divider"></div>
 
-                            </ul>
-                        </div>
-                        
-                    </div>
-                   
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Chinese Tourist Attraction Website</h3>
-                            <ul >
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    Developed a website to introduce the most famous tourist attractions in every province in China.
-                                </li>
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    Worked with Web Front-End Frameworks to add extra functionalities to the site.
-                                </li>
+        <img src="images/zhang.jpeg" alt="Yue Zhang" style="width:215;height:215px;float:left;margin-right:20px;margin-bottom:10px;margin-top:5px;">
+        <p> I'm an Assistant Professor in the Department of Electrical and Computer Engineering at 
+          <a href="https://www.georgiasouthern.edu/">Georgia Southern University</a>. 
+          My research focuses on artificial intelligence and biomedical data analysis, with an emphasis on developing reliable and interpretable machine learning methods for healthcare applications. I received my PhD in Computer Science and Engineering from 
+          <a href="https://cse.osu.edu/">The Ohio State University</a>, where I conducted research in medical image analysis, graph learning, and clinical waveform modeling.         
+        </p>
+        <p>
+          My work integrates deep learning, computer vision, graph neural networks, and uncertainty quantification to improve disease diagnosis, physiological property estimation, and fairness in AI-driven healthcare systems. I have collaborated on projects involving ophthalmic imaging, ultrasound-based ocular modeling, synthetic medical data fairness, and graph representation learning.
+        </p>
 
-                            </ul>
-                        </div>
-                       
-                    </div>
-                </div>
-            </section>
-            
+        <p>I am particularly interested in designing machine learning systems that are accurate, interpretable, and clinically applicable. 
+          My research aims to bridge advanced AI techniques with real-world biomedical challenges, enabling scalable and accessible healthcare technologies.
+        </p>
+        <p>
+          Some current research directions and areas I am interested in include:
+          </p>
+          <ul>
+            <li>Artificial intelligence and machine learning</li>
+        
+            <li>Computer vision and biomedical image analysis</li>
+        
+            <li>Data-driven modeling and intelligent systems</li>
+        
+            <li>Graph neural networks and representation learning</li>
+        
+            <li>Reliable, interpretable, and fair AI systems</li>
+        
+            <li>Applications of machine learning across interdisciplinary engineering and scientific domains</li>
+        </ul>
+    
+	<div>
+	
+  <p><strong>I'm always looking for highly motivated students in Au26 and Sp27. </strong> Artificial intelligence, machine learning, computer vision, or interdisciplinary applications of AI in engineering and science are encouraged to contact me. Please email me your CV, transcripts, and a brief description of your research interests.</p>
 
-            <hr class="m-0" />
-            <!-- Skills-->  
-            <section class="resume-section" id="skills">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-java"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-php"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-linux"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-git-square"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-android"></i></li>
-                        
-                
-                    </ul>
-                    <div class="subheading mb-3">Programming Language</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Java
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Python 
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            MATLAB
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            HTML/CSS/JavaScript
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Ruby on Rails
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            C#
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            C/C++
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            PHP
-                        </li>
-                    </ul>
-                    
-                    <div class="subheading mb-3">Tools</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Android Studio
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Unity3D
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Linux
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Git
-                        </li>
-                    </ul>
-                </div>
-            </section>
+  <!-- <p><b>I'm hiring a postdoc (ML/Vision/NLP background) with potential topics including (multimodal) foundation models for sciences, LLMs, language agents and tool use. Send me an <a href="mailto: su.809@osu.edu">email</a> with CV and interests!</b></p> -->
+	</div>
+    </div>
+
+    <!-- <div class="contentBlock">
+      <a name="news"></a>
+        <h2>What's New</h2>
+        <div class="divider"></div>
+
+        <div class="news">
+        <ul>
+            <!--<li style="color:red;font-size:17px;font-weight:bold">11/2017: I'm looking for faculty and research scientist positions in data mining, NLP, and machine learning. Drop me an email if you are interested in my profile (<a href="resources/CV_YuSu.pdf">CV</a>, <a href="resources/research_statement.pdf">Research Statement</a>, <a href="resources/teaching_statement.pdf">Teaching Statement</a>)!</li>-->
+            <!-- <li><b>These days <i>language agents</i> are what excit me most, so much so that I wrote my first <a href="https://yusu.substack.com/p/language-agents">blog</a> about it.</b></li> -->
+            <!-- <li>10/2025: Recent services: Senior Area Chair at EMNLP'25, ICLR'26, ICML'26. Co-Organizer of <a href="https://ivado.ca/en/thematic-programs/autonomous-llm-agents-risks-and-scientific-challenges/?menu_2">IVADO Agent Semester</a>. </li>
+			<li>09/2025: New blog post: <a href="https://yusu.substack.com/p/computer-use-modern-moravecs-paradox">Computer Use: Modern Moravec's Paradox</a></li>
+			<li>09/2025: 3 papers accepted to NeurIPS'25: <a href="https://imageomics.github.io/bioclip-2/">BioCLIP 2</a> (<b>Spotlight</b>), <a href="https://team-arm.github.io/arm/">Adaptive Reasoning Model</a> (<b>Spotlight</b>), <a href="https://osu-nlp-group.github.io/Mind2Web-2/">Mind2Web 2</a>.
+			<li>08/2025: Honored to receive the NSF CAREER Award!</li>
+			<li>05/2025: Happy to be promoted to Associate Professor with tenure and endowed with Innovation Scholar!</li>
+            <li>05/2025: <a href="https://arxiv.org/abs/2502.14802">HippoRAG 2</a> accepted to ICML'25!</li>
+            <li>02/2025: Honored to receive the <a href="https://sloan.org/fellowships/2025-Fellows">Sloan Research Fellowship</a>!</li>
+            <li>02/2025: 3 papers accepted to CVPR'25: <a href="https://arxiv.org/abs/2411.16537">RoboSpatial</a> (<b>Oral</b>), <a href="https://arxiv.org/abs/2501.11309">Finer-CAM</a>, <a href="https://arxiv.org/abs/2501.09333">Prompt-CAM</a></li>
+            <li>02/2025: Guest lecture on memory, reasoning, and planning of language agents at the <a href="https://llmagents-learning.org/sp25">Berkeley Advanced LLM Agents MOOC</a>.</li>
+            <li>01/2025: 4 papers accepted to ICLR'25: <a href="https://osu-nlp-group.github.io/UGround/">UGround</a> (<b>Oral</b>), <a href="https://osu-nlp-group.github.io/ScienceAgentBench/">ScienceAgentBench</a>, <a href="https://arxiv.org/abs/2410.02642">In-context Reranking</a>, <a href="https://arxiv.org/abs/2408.06327">VisualAgentBench</a></li>
+            <li>12/2024: Talk at NeurIPS workshop about <a href="https://tinyurl.com/language-agent-safety-2024">agent safety</a>.</li>
+            <li>11/2024: Check out our tutorial "<a href="https://language-agent-tutorial.github.io/">Language Agents: Foundations, Prospects, and Risks</a>" at EMNLP'24!</li>
+            <li>11/2024: Talk at University of Michigan, Princeton University, LMU Munich/TU Darmstadt on language agents.</li>
+            <li>09/2024: 4 papers accepted to NeurIPS'24 and 1 paper to EMNLP'24: <a href="https://arxiv.org/abs/2405.14831">HippoRAG</a>, <a href="https://arxiv.org/abs/2405.15071">Grokked Transformers</a>, <a href="https://arxiv.org/abs/2409.16223">Calibrated Fine-tuning</a>, <a href="https://arxiv.org/abs/2408.16176">VLM4Bio</a>, and <a href="https://arxiv.org/abs/2402.14672">Middleware for LLMs</a>.</li>
+            <li>09/2024: Recent services: Senior Area Chair for ICLR'25, Area Chair for ACL'24, EMNLP'24, COLM'24.</li>
+            <li>06/2024: Honored to receive <b>Best Student Paper Award</b> (BioCLIP) and <b>Best Paper Finalist</b> (MMMU) at CVPR'24!</li>
+            <li>05/2024: Thrilled to release <a href="https://arxiv.org/abs/2405.14831">HippoRAG</a> and bring my passion about biological intelligence into AI!</li>
+            <li>05/2024: 2 papers accepted to ACL'24: <a href="https://arxiv.org/abs/2403.04746">tool learning through simulated trial and error</a> and <a href="https://arxiv.org/abs/2402.10890">planning with LLMs</a> (or why it's hard).</li>
+            <li>05/2024: New talk on <i>a holistic and critical look at language agents</i> at the <a href="https://cmu-agent-workshop.github.io/">CMU Agent Workshop</a>.</li>
+            <li>05/2024: 3 papers accepted to ICML'24: <a href="https://osu-nlp-group.github.io/SeeAct/">SeeAct</a>, <a href="https://osu-nlp-group.github.io/TravelPlanner/">TravelPlanner</a> (Spotlight), <a href="https://open-vision-language.github.io/MagicLens/">MagicLens</a> (Oral).</li>
+            <li>04/2024: Honored that both <a href="https://imageomics.github.io/bioclip/">BioCLIP</a> and <a href="https://mmmu-benchmark.github.io/">MMMU</a> are selected for <b>oral presentation</b> at CVPR'24 (90/11,532, 0.8%)!</a> </li>
+            <li>02/2024: 3 papers accepted to CVPR'24: <a href="https://imageomics.github.io/bioclip/">BioCLIP</a> (Best Student Paper), <a href="https://mmmu-benchmark.github.io/">MMMU</a> (Best Paper Finalist), <a href="https://arxiv.org/abs/2402.04476">multimodal web agents</a>.</li>
+            <li>02/2024: Excited to release <a href="https://osu-nlp-group.github.io/TravelPlanner/">TravelPlanner</a>, a real-world planning benchmark for language agents.</li>
+            <li>01/2024: 5 papers accepted to ICLR'24 on <a href="https://arxiv.org/abs/2305.13300">knowledge conflicts in LLMs</a> (Spotlight), <a href="https://arxiv.org/abs/2309.05653">MAmmoTH</a> (Spotlight), <a href="https://arxiv.org/abs/2308.03688">AgentBench</a>, <a href="https://arxiv.org/abs/2311.04157">Interpretable Transformer</a>, <a href="https://arxiv.org/abs/2312.02436">MUFFIN</a>.</li>
+            <li>01/2024: Thrilled to release <a href="https://osu-nlp-group.github.io/SeeAct/">SeeAct</a>, enabling everyone to <b>use GPT-4V-based web agents with one click</b>.</li>
+            <li>12/2023: Thrilled to release <a href="https://imageomics.github.io/bioclip/">BioCLIP</a>, a vision foundation model for the tree of life.</li>
+            <li>11/2023: Excited to release <a href="https://mmmu-benchmark.github.io/">MMMU</a>, a new multimodal benchmark for Expert AGI.</li>
+            <li>10/2023: Invited talks at IJCAI, UCSD, Tsinghua, Fudan, University of Hong Kong, Pinterest, and Salesforce AI Research on language agents (<a href="resources/language_agents_YuSu_2023.pdf">slides</a>).</li>
+            <li>10/2023: 3 papers accepted to EMNLP'23 on <a href="https://arxiv.org/abs/2305.06311">attribution evaluation of LLMs</a>, <a href="https://arxiv.org/abs/2305.13683">text-to-SQL error detection</a>, and biomedical NLP.</li>
+            <li>09/2023: 3 papers accepted to NeurIPS'23: <a href="https://arxiv.org/abs/2306.06070">Mind2Web</a> (Spotlight), <a href="https://arxiv.org/abs/2306.10012">MagicBrush</a>, and Holistic Transfer.</li>
+            <li>07/2023: Glad that <a href="https://dki-lab.github.io/LLM-Planner/">LLM-Planner</a> that uses LLMs for embodied agent planning got accepted to ICCV'23!</li>
+            <li>07/2023: Honored that our paper <a href="https://arxiv.org/abs/2212.09736">Pangu</a> received the <b>Outstanding Paper Award</b> from ACL 2023!</li>
+            <li>06/2023: Invited talks at Army Research Lab and OSU RISK Institute.</li>
+            <li>05/2023: 6 papers accepted to ACL'23. Congrats to all the students and collaborators!</li>
+            <li>05/2023: Grateful to receive support from NIH R01 for our research on AI and biomedicine!</li>
+            <li>04/2023: Honored to receive support from President Johnson for our research on large language models!</li>
+            <li>03/2023: Invited talks at University of Tokyo and Amazon on <a href="resources/grounding_LMs.pdf">grounding language models to real-world environments</a>.</li>
+            <li>03/2023: Honored to receive the <a href="https://awards.webapps.engineering.osu.edu/awards/13">College of Engineering Lumley Research Award</a>!</li>
+            <li>01/2023: Check out <a href="https://twitter.com/osunlp/status/1609642737409855490">a summary of the major achievements</a> by the OSU NLP group in 2022!</li>
+            <li>12/2022: Serve as Area Chair for ACL'23.</li>
+            <li>11/2022: Serve as Workflow Co-Chair for SIGKDD'23.</li>
+            <li>10/2022: Excited that our <a href="https://arxiv.org/abs/2204.08109">ArcaneQA</a> paper won the Outstanding Paper Award at COLING'22 (top 15 out of 2253 submissions)!</li>
+            <li>10/2022: Papers on broad-coverage conversational AI and GPT-3 for biomedical information extraction accepted to EMNLP'22!</li>
+            <li>09/2022: New grant from ARL for knowledge-based embodied AI. </li>
+            <li>08/2022: Honored to receive the Distinguished Assistant Professorship of Engineering Inclusive Excellence from OSU for research and contributions towards democratizing AI!</li>
+            <li>08/2022: Paper on question answering over large knowledge graphs accepted to COLING'22. </li>
+	          <li>07/2022: Serve as Senior PC member for AAAI'23. </li>
+            <li>07/2022: Invited talk at the <a href="https://dlg4nlp-workshop.github.io/dlg4nlp-naacl22/schedule">DLG4NLP workshop</a> at NAACL'22: <i><a href="resources/Graphs_and_Conversational_AI.pdf">Will Graphs Lead to the Next Breakthrough of Conversational AI?</a></i></li>
+            <li>06/2022: Our OSU team won the 3rd place in the inaugural <a href="https://www.amazon.science/alexa-prize/three-top-performers-emerge-in-inaugural-alexa-prize-taskbot-challenge"><b>Amazon Alexa Prize TaskBot Challenge</b></a>! Check out our <a href="https://sunlab-osu.github.io/tacobot/">website</a>.</li>
+            <li>05/2022: Thank you, Walmart and Cisco, for supporting our research!</li>
+            <li>04/2022: Talk at Nanjing University and JD.com on emerging frontiers of conversational AI.</li>
+            <li>02/2022: Paper on long-horizon vison-and-language navigation accepted to CVPR 2022.</li>
+            <li>02/2022: Paper on text-to-SQL generalization accepted to ACL 2022.</li>
+            <li>12/2021: Check out <a href="https://twitter.com/osunlp/status/1477501035954454528?s=20">a summary of the major achievements</a> by the OSU NLP group in 2021!</li>
+            <li>11/2021: Our team is selected to participate in the <a href="https://developer.amazon.com/alexaprize/challenges/current-challenge/simbot">Alexa Prize SimBot challenge</a>!</li>
+            <li>09/2021: Excited to be a part of the <a href="https://engineering.osu.edu/news/2021/09/new-15-million-nsf-grant-launches-ohio-state-imageomics-institute">Imageomics Institute</a> -- a new NSF HDR Institute dedicated for knowledge-guided machine learning for biology. I will lead the Machine Learning Foundations team.</li> -->
+            <!-- <li>08/2021: Paper on pre-trained language models with better reasoning capabilities accepted to EMNLP 2021.</li>
+            <li>07/2021: Excited to be a part of <a href="https://icicle.osu.edu/">ICICLE</a> -- a new NSF AI Institute dedicated to democratizing AI through AI and cyberinfrastructure innovations. I will lead the <a href="https://icicle.osu.edu/who-we-are/management"></href>AI team</a> with Eric Fosler-Lussier. <a href="https://news.osu.edu/nsf-funds-2-ohio-state-based-institutes-to-expand-artificial-intelligence-research/">Read more</a>.</li>
+            <li>07/2021: Talk at USC/ISI and Beijing Academy of Artificial Intelligence on Emerging Frontiers of Conversational AI.</li>
+            <li>05/2021: Long paper on large-scale joint KB and text embedding accepted to ACL 2021. </li>
+            <li>03/2021: Received an Accelerator Grant from OSU TDAI on NLP for Social Media Pharmacovigilance.</li>
+            <li>03/2021: Short Paper on compositional generalization for neural semantic parsing accepted to NAACL-HLT 2021. </li>
+            <li>01/2021: Paper on <a href="https://arxiv.org/pdf/2011.07743.pdf">non-i.i.d. generalization of question answering on knowledge bases</a> accepted to TheWebConf 2021 (previously WWW). </li>
+            <li>11/2020: Will co-organize the <a href="https://nlp4prog.github.io/2021/">First Workshop on Natural Language Processing for Programming</a> at ACL-IJCNLP 2021. </li>
+            <li>09/2020: Will serve on the organizing committee of NAACL 2021.</li>
+            <li>09/2020: Super excited to share some of the work I've been working on at <a href="https://www.microsoft.com/en-us/research/project/semantic-machines/">Microsoft Semantic Machines</a> &#8212; <a href="https://www.microsoft.com/en-us/research/blog/dialogue-as-dataflow-a-new-approach-to-conversational-ai/?OCID=msr_blog_semantic_tw">Task-Oriented Dialogue as Dataflow Synthesis</a> (TACL'20)</li>
+            <li>09/2020: Two long papers (learning language interfaces from use and data-to-text generation) accepted to EMNLP'20. One short paper on document classification for COVID-19 literature accepted to Findings of EMNLP.</li>
+            <li>05/2020: Serve as Area Chair (Conversational Bot/QA) at NLPCC'20. Serve in the Program Committee of ACL'20, KDD'20 (chair of Trustworthy Data Mining session), EMNLP'20, AAAI'21, AKBC'20, IntEx-SemPar'20.</li>
+            <li>04/2020: Long paper on logical natural language generation accepted to ACL 2020</li>
+            <li>03/2020: Thank you, Fujitsu Laboratories of America, for supporting our research!</li>
+            <li>01/2020: Started as Assistant Professor of Computer Science and Engineering at the Ohio State University</li>
+	    <li>08/2019: Long paper on model-based interactive semantic parsing got accepted to EMNLP 2019</li>
+	    <li>08/2019: Long paper on taxonomic categorization of documents got accepted to ICDM 2019</li>
+	    <li>05/2019: Short paper on general-purpose textual relation embedding got accepted to ACL 2019</li>
+	    <li>05/2019: Received Outstanding Dissertation Award of Computer Science from UCSB. Thank you UCSB!</li>
+	    <li>05/2019: Check out <a href="https://www.computerworld.com/article/3394041/new-cortana-and-google-assistant-updates-highlight-workplace-potential.html">what we are doing</a> at Microsoft Semantic Machines (highlighted in Microsoft Build 2019)! </li>
+	    <li>02/2019: Full paper on vocabulary selection got accepted to NAACL 2019</li>
+	    <li>02/2019: Talk at Stanford NLP Seminar on democratizing data science with knowledge engines</li>
+	    <li>11/2018: Full paper on zero-shot video captioning got accepted to AAAI 2019</li>
+	    <li>10/2018: Started as researcher at <a href="http://www.semanticmachines.com/">Microsoft Semantic Machines</a> in Berkeley working on conversational AI.</li>
+	    <li>08/2018: Full paper on concept mining from text got accepted to ICDM 2018.</li>
+	    <li>08/2018: Two long papers on dialog/semantic parsing got accepted to EMNLP 2018.</li>
+	    <li>07/2018: Our work on <a href="https://www.microsoft.com/en-us/research/blog/democratizing-apis-with-natural-language-interfaces/">natural language interfaces to APIs</a> highlighted in Microsoft Research Blog!</li>
+	    <li>06/2018: Serve as PC member for ACL'18, EMNLP'18, CoNLL'18, NLPCC'18, and AAAI'19.
+            <li>04/2018: Paper "DialSQL: Dialogue Based Structured Query Generation" accepted to ACL'18 as long paper: Improve semantic parsing with dialog.</li>
+	    <li>04/2018: Paper "Natural Language Interfaces with Fine-Grained User Interaction: A Case Study on Web APIs" accepted to SIGIR'18 as long paper.</li>
+	    <li>03/2018: Awarded the Best Distinguished Graduate Student Lecture of <a href="http://www.ucsb-cs-summit.com/">UCSB CS Summit</a>.</li>
+	    <li>02/2018: Paper "Global Relation Embedding for Relation Extraction" accepted to NAACL-HLT'18: Robust relation extraction from text with global statistics.</li>
+	    <li>02/2018: Talk about "Bridging the Gap between Human and Data with AI" at the University of Massachusetts, Amherst.</li>
+	    <li>02/2018: Successfully organized the first <a href="http://kbcom.org">Workshop on Knowledge Base Construction, Reasoning and Mining</a> at Los Angeles. Check out the great invited talks and accepted papers!</li>
+	    <li>01/2018: Talk about "Bridging the Gap between Human and Data with AI" at the Ohio State University.</li>
+	    <li>12/2017: I will serve in the Program Committee (Research Track) of KDD'18</li>
+	    <li>12/2017: Paper "Unsupervised Neural Categorization for Scientific Publications" accepted to SDM'18.</li>
+	    <li>11/2017: Attended CIKM'17 in Singapore and gave a talk on natural lanugage interface and a tutorial on construction and querying of large-scale knowledge bases. </li>
+	    <li>10/2017: Upcoming visits in China: 10.09-10.15 (Alibaba, Hangzhou), 10.10 (Fudan University, Shanghai), 10.11 (The Computing Conferencce, Hangzhou), 10.16 (Tsinghua University, Beijing), 10.17 (Toutiao AI Lab, Beijing) </li>
+	    <li>09/2017: I'm co-organizing the <a href="http://www.kbcom.org">First Workshop on Knowledge Base Construction, Reasoning and Mining</a> (KBCOM'18) co-located with WSDM'18 on Feb 9, 2018 at Los Angeles. <a href="http://kbcom.org/1-cfp.html">CFP</a> is out!</li>
+	    <li>09/2017: Finished summer internship at MSR. Flying to Copenhagen for EMNLP.</li>
+	    <li>08/2017: I will serve in the Program Committee of WWW'18</li>
+	    <li>08/2017: Paper on natural language interface to web API <em>from zero user and data</em> accepted to CIKM'17.</li>
+	    <li>07/2017: Tutorial on Construction and Querying of Large-Scale Knowledge Bases accepted to CIKM'17. See you in Singapore!</li>
+	    <li>06/2017: Three papers on semantic parsing/QA accepted to EMNLP'17. Thanks to my collaborators!</li> 
+	    <li>06/2017: Started summer internship in Microsoft Research</li>
+	    <li>04/2017: I will serve in the Program Committee of CIKM'17</li>
+	    <li>03/2017: Attended a project meeting at UIUC and gave a talk on unsupervised document categorization</li>
+	    <li>03/2017: I will serve in the Program Committee of NLPCC'17</li>
+            <li>02/2017: I will serve in the Program Committee of EMNLP'17</li>
+            <li>01/2017: I will serve in the Program Committee of ACL'17</li>
+            <li>11/2016: Attended EMNLP'16 in Austin, US</li>
+	    <li>09/2016: Our QA dataset GraphQuestions v1 is released. Check <a href="https://github.com/ysu1989/GraphQuestions">it</a> out!</li>
+            <li>09/2016: Two papers on knowledge base question answering got accepted to EMNLP'16!</li>
+            <li>09/2016: Attended the Bay Area Deep Learning School, Stanford</li>
+            <li>06/2016: Started summer internship in Microsoft Research, Redmond</li>
+        </ul>
         </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-        <!-- Third party plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+    </div> --> 
+
+    <!-- <div class="contentBlock">
+    	<a name="experience"></a> 
+        <h2>Experience</h2>
+        <div class="divider"></div>
+        <ul>
+            <li>01/2020 - present: Assistant professor at <i>The Ohio State University</i></li>
+	    <li>10/2018 - present: Senior researcher at <i>Microsoft Semantic Machines</i></li>
+	    <li>08/2018 - 07/2019: Visiting assistant professor at <i>The Ohio State University</i></li>
+	    <li>06/2017 - 09/2017: Research intern at <i>Microsoft Research, Redmond</i></li>
+            <li>06/2016 - 09/2016: Research intern at <i>Microsoft Research, Redmond</i></li>
+            <li>05/2015 - 06/2015, 09/2015 - 11/2015, 05/2016 - 06/2016: Visiting researcher at <i>U.S. Army Research Laboratory</i></li>
+            <li>06/2015 - 09/2015: Research intern at <i>IBM T.J. Watson Research Center</i></li>
+        </ul>
+    </div> -->
+
+    <!-- <div class="contentBlock">
+    	<a name="talks"></a>
+        <h2>Recent Talks</h2>
+        <div class="divider"></div>
+        <div class="publication">
+          <ul>
+            <li>
+              <span class="paperTitle">Tutorial: Language Agents: Foundations, Prospects, and Risks (<a href="https://tinyurl.com/language-agent-tutorial-2024">slides</a>) (<a href="https://tinyurl.com/agent-tutorial-recording-2024">recording</a>)</span> <br />
+              <span class="paperAuthor"><a href="https://language-agent-tutorial.github.io/">EMNLP 2024</a> (w/ Diyi Yang, Shunyu Yao, Tao Yu)</span>
+            </li>
+            <li>
+              <span class="paperTitle">On Memory, Reasoning, and Planning of Language Agents (<a href="https://www.youtube.com/watch?v=zvI4UN2_i-w&t=3s">recording</a>)</span> <br />
+              <span class="paperAuthor"><a href="https://llmagents-learning.org/sp25">Berkeley Advanced LLM Agents MOOC</a> </span>
+            </li>
+            <li>
+              <span class="paperTitle">A Holistic and Critical Look at Language Agents (<a href="resources/language_agents_YuSu_2024.pdf">slides</a>)</span> <br />
+              <span class="paperAuthor"><a href="https://cmu-agent-workshop.github.io/">CMU Agent Workshop</a>, JPMorgan Chase, Amazon AGI, Apple NLU Workshop, LMU Munich/TU Darmstadt, Stanford, Princeton, NVIDIA</span>
+            </li>
+            <li>
+              <span class="paperTitle">Pressing Safety Issues with Language Agents (<a href="https://tinyurl.com/language-agent-safety-2024">slides</a>) (<a href="https://neurips.cc/virtual/2024/workshop/84748">recording</a> [starting 5:44:00; login required])</span> <br />
+              <span class="paperAuthor"><a href="https://www.mlsafety.org/events/neurips/2024">NeurIPS 2024 Agent Safety Workshop</a> </span>
+            </li> -->
+            <!-- <li>
+              <span class="paperTitle">Web Agents: A New Frontier for Embodied Agents (<a href="https://tinyurl.com/web-agents-2024">slides</a>)</span> <br />
+              <span class="paperAuthor"><a href="https://cse.engin.umich.edu/event/yu-su-seminar-guest-lecture">University of Michigan</a>, <a href="https://splu-robonlp-2024.github.io/">SpLU-RoboNLP Workshop@ACL'24</a>, ServiceNow</span>
+            </li> -->
+            <!-- <li>
+              <span class="paperTitle">Language Agents: A Critical Evolutionary Step of AI (<a href="resources/language_agents_YuSu_2023.pdf">slides</a>)</span> <br />
+              <span class="paperAuthor">IJCAI <a href="https://bigmodel.ai/llm-ijcai23">LLM Symposium</a>, <a href="https://shangjingbo1226.github.io/teaching/2023-fall-ucsd-ai-seminar">UCSD</a>, Tsinghua, Fudan, University of Hong Kong, <a href="https://www.gem.com/lp/pinterestcareers/August-2023-Pin-Labs">Pinterest Labs</a>, Salesforce AI Research, <a href="https://icdt.osu.edu/events/2023/10/ohio-state-symposium-large-language-models">OSU LLM Symposium</a>, <a href="https://neurosymbolic.asu.edu/workshop-on-metacognitive-prediction-of-ai-behavior/">ASU Metacognition Workshop</a></span>
+            </li> -->
+          <!-- </ul>
+        </div> -->
+
+        <!-- <div class="contentBlock">
+          <a name="awards"></a>
+            <h2>Awards & Honors</h2>
+            <div class="divider"></div>
+            <ul>
+				<li>NSF CAREER Award, 2025</li> 
+                <li>Alfred P. Sloan Research Fellowship, 2025</li> 
+                <li>Lumley Interdisciplinary Research Award, OSU, 2025</li> 
+                <li>Faculty Teaching Award, OSU, 2025</li> 
+                <li>Best Student Paper Award, CVPR, 2024</li> 
+                <li>Best Paper Finalist, CVPR, 2024</li>
+                <li>Cisco Faculty Award, 2024</li>
+                <li>Outstanding Area Chair, EMNLP, 2024</li>
+                <li>Outstanding Paper Award, ACL, 2023</li> 
+                <li>Lumley Research Award, OSU, 2023</li>  
+                <li>Outstanding Paper Award, COLING, 2022</li>  
+                <li>Distinguished Assistant Professorship of Engineering Inclusive Excellence, OSU, 2022</li>
+                <li>Third-Place Honor, Inaugural Amazon Alexa Prize TaskBot Challenge, 2022</li> 
+                <li>Outstanding Dissertation Award of Computer Science, UCSB, 2019</li> 
+                <li>Outstanding Freshman/Graduate Awards, Tsinghua University, 2008/2012</li>
+              <li>Merit-based Scholarships, Tsinghua University, 2008-2011</li>
+            </ul>
+        </div> 
+
+    <!-- <div class="contentBlock">
+      <a name="student"></a>
+        <h2>Students</h2>
+        <div class="divider"></div>
+        <p style="font-size: 18px"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Current Ph.D. / Postdocs</b></p>
+        <ul>
+            <li><a href="https://vardaan123.github.io/">Vardaan Pahuja</a> (SP20 &#8211)</li>
+            <li><a href="https://chanh.ee/">Chan Hee (Luke) Song</a> (AU20 &#8211)</li>
+            <li><a href="https://chensj98.github.io/">Shijie Chen</a> (AU21 &#8211, co-advised with Huan Sun)</li>
+            <li><a href="https://samuelstevens.me/">Sam Stevens</a> (AU21 &#8211)</li>
+			<li><a href="https://drogozhang.github.io/">Kai Zhang</a> (AU22 &#8211)</li>
+            <li><a href="https://scholar.google.com/citations?user=0wfNprQAAAAJ&hl=en">Jiaman (Lisa) Wu</a> (AU22 &#8211, co-advised with Wei-Lun Chao)</li>
+            <li><a href="https://boyuanzheng010.github.io/">Boyuan Zheng</a> (AU23 &#8211)</li>
+			<li><a href="https://boyugou.github.io/">Boyu Gou</a> (AU23 &#8211)</li>
+            <li><a href="https://yihengshu.github.io/">Yiheng Shu</a> (AU23 &#8211)</li>
+            <li><a href="https://vimar-gu.github.io/">Jianyang Gu</a> (AU24 &#8211, postdoc with Wei-Lun Chao, Tanya Berger-Wolf)</li>
+			<li><a href="https://hsaest.github.io/">Jian Xie</a> (AU25 &#8211)</li>
+			<li><a href="https://zhehaozhang123.github.io/">Zhehao Zhang</a> (AU25 &#8211)</li>
+        </ul>
+
+		<p style="font-size: 18px"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alumni</b></p>
+		<ul>
+			<li><a href="https://entslscheia.github.io/">Yu Gu</a> (Ph.D. 2025, Co-Founder at a stealth startup)</li>
+			<li><a href="https://bernaljg.github.io/">Bernal Jiménez Gutiérrez</a> (Ph.D. 2025, postdoc at JHU)</li>
+		</ul>
+    </div> -->
+        <!-- <p style="font-size: 18px"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alumni</b></p>
+        <ul>
+            <li><a href="https://zexinxu.com/">Jason Xu</a> (MS SP20 &#8211)</li>
+          </ul> 
+        <p style="font-size: 18px"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Master Students</b></p>
+        <ul>
+          <li>Jason Xu (AU22 &#8211)</li>
+        </ul>
+        <p style="font-size: 18px"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Undergraduate Students</b></p>
+        <ul>
+          <li>Alison Zhong </li>
+          <li>Sparsh Kustagishettar </li>
+          <li>Clay Washington</li>
+          <li><a href="https://nikolasmcneal.github.io/">Nikolas McNeal</a> &#x2192; Ph.D. at Georgia Tech</li>
+          <li><a href="https://samuelstevens.me/">Sam Stevens</a>  &#x2192; Ph.D. at OSU</li>
+    </div> -->
+
+
+    <div class="contentBlock">
+    	<a name="publications"></a>
+        <h2>Publications</h2>
+        <div class="divider"></div>
+
+        <div class="publication">
+	      <div style="margin-bottom: 10px;font-size: 18px">Selected recent highlights that reflect my current interests. *: Equal Contribution</div>	
+        <ul>			
+          <li>
+            <span class="paperTitle">Reducing manual labeling requirements and improved retinal ganglion cell identification in 3D AO-OCT volumes using semi-supervised learning
+            </span> <br />
+            <span class="paperAuthor">Mengxi Zhou*, Yue Zhang*, Amin Karimi Monsefi, Stacey S. Choi, Nathan Doble, Srinivasan Parthasarathy, Rajiv Ramnath. Biomedical Optics Express, 2024 </span>
+            <span class="paperResource"> [<a href="https://opg.optica.org/boe/fulltext.cfm?uri=boe-15-8-4540">paper</a>] </span>
+          </li>
+		  <li>
+            <span class="paperTitle">	
+              ISOSNet: a unified framework for cone photoreceptor detection and inner segment and outer segment length measurement from AO-OCT B-scans
+            </span> <br />
+            <span class="paperAuthor">Mengxi Zhou*, Yue Zhang*, Eli Kirkendall, Amin Karimi Monsefi, Matthew Wolfe, Kiran A. Chitkara, Stacey S. Choi, Nathan Doble, Srinivasan Parthasarathy, Rajiv Ramnath. Biomedical Optics Express, 2025 </span>
+            <span class="paperResource"> [<a href="https://opg.optica.org/boe/fulltext.cfm?uri=boe-16-8-3237">paper</a>]  </span>
+          </li>
+          <li>
+            <span class="paperTitle">Adaptive Temporal Mixture of Experts for Predicting Stiffness Metrics From the Ocular Response Analyzer and Identifying Keratoconus
+            </span> <br />
+            <span class="paperAuthor">Yue Zhang, Swati Padhee, Phillip T Yuhas, Cynthia J Roberts, Srinivasan Parthasarathy. American Journal of Ophthalmology, 2026 </span>
+            <span class="paperResource"> [<a href="https://www.sciencedirect.com/science/article/pii/S0002939426000887">paper</a>] </span>
+          </li>
+          <li>
+            <span class="paperTitle">Automated Montaging of Ultrasound Scans for Determination of Ocular Globe Shape
+            </span> <br />
+            <span class="paperAuthor"> Yue Zhang, Marielle Reidy, Swati Padhee, Nathan Doble, Donald Mutti, Srinivasan Parthasarathy </span>
+            <span class="paperResource"> [<a href="https://www.researchsquare.com/article/rs-8835197/v1">paper</a>] </span>
+          </li>
+          <li>
+            <span class="paperTitle">MedEqualizer: A Framework Investigating Bias in Synthetic Medical Data and Mitigation via Augmentation
+            </span> <br />
+            <span class="paperAuthor">Sama Salarian*, Yue Zhang*, Swati Padhee, Srinivasan Parthasarathy</span>
+            <span class="paperResource"> [<a href="https://arxiv.org/abs/2511.01054">paper</a>] </span>
+          </li>
+          <li>
+            <span class="paperTitle">Heteromile: a Multi-Level Graph Representation Learning Framework for Heterogeneous Graphs
+            </span> <br />
+            <span class="paperAuthor">Yue Zhang, Yuntian He, Saket Gurukar, Srinivasan Parthasarathy. Proceedings of the Nineteenth ACM International Conference on Web Search and Data Mining (WSDM Companion '26)</span>
+            <span class="paperResource"> [<a href="https://dl.acm.org/doi/abs/10.1145/3779211.3793171">paper</a>] </span>
+          </li>
+          <li>
+            <span class="paperTitle">WebMILE: Democratizing Network Representation Learning at Scale
+            </span> <br />
+            <span class="paperAuthor">Yuntian He*, Yue Zhang*, Saket Gurukar, Srinivasan Parthasarathy. Proceedings of the VLDB Endowment, 2022 </span>
+            <span class="paperResource"> [<a href="https://par.nsf.gov/biblio/10355924">paper</a>] </span>
+          </li>
+      
+         
+          
+        </ul>    
+        
+        
+        
+        <!-- <ul>
+              <li>
+                <span class="paperTitle">RoboSpatial: Teaching Spatial Understanding to 2D and 3D Vision-Language Models for Robotics
+                </span> <br />
+                <span class="paperAuthor">Chan Hee Song, Valts Blukis, Jonathan Tremblay, Stephen Tyree, Yu Su, Stan Birchfield. In the Conference on Computer Vision and Pattern Recognition, 2025 (<b>CVPR'25</b>)</span>
+                <span class="paperResource"> [<a href="https://arxiv.org/abs/2411.16537">paper</a>] </span>
+              </li>
+              <li>
+                <span class="paperTitle">Finer-CAM: Spotting the Difference Reveals Finer Details for Visual Explanation
+                </span> <br />
+                <span class="paperAuthor">Ziheng Zhang, Jianyang Gu, Arpita Chowdhury, Zheda Mai, David Carlyn, Tanya Berger-Wolf, Yu Su, Wei-Lun Chao. In the Conference on Computer Vision and Pattern Recognition, 2025 (<b>CVPR'25</b>)</span>
+                <span class="paperResource"> [<a href="https://arxiv.org/abs/2501.11309">paper</a>] </span>
+              </li>
+              <li>
+                <span class="paperTitle">Prompt-CAM: A Simpler Interpretable Transformer for Fine-Grained Analysis
+                </span> <br />
+                <span class="paperAuthor">Arpita Chowdhury, Dipanjyoti Paul, Zheda Mai, Jianyang Gu, Ziheng Zhang, Kazi Sajeed Mehrab, Elizabeth G. Campolongo, Daniel Rubenstein, Charles V. Stewart, Anuj Karpatne, Tanya Berger-Wolf, Yu Su, Wei-Lun Chao. In the Conference on Computer Vision and Pattern Recognition, 2025 (<b>CVPR'25</b>)</span>
+                <span class="paperResource"> [<a href="https://arxiv.org/abs/2501.09333">paper</a>] </span>
+              </li>
+              <li>
+                <span class="paperTitle">MICE for CATs: Model-Internal Confidence Estimation for Calibrating Agents with Tools
+                </span> <br />
+                <span class="paperAuthor">Nishant Subramani, Jason Eisner, Justin Svegliato, Benjamin Van Durme, Yu Su, Sam Thomson. In the Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics, 2025 (<b>NAACL'25</b>)</span>
+                <span class="paperResource"> [<a href="#">paper</a>] </span>
+              </li>
+              <li>
+                <span class="paperTitle">Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents
+                </span> <br />
+                <span class="paperAuthor">Boyu Gou, Ruohan Wang, Boyuan Zheng, Yanan Xie, Cheng Chang, Yiheng Shu, Huan Sun, Yu Su. In the International Conference on Learning Representations, 2025 (<b>ICLR'25</b>)</span>
+                <span class="paperResource"> [<a href="https://osu-nlp-group.github.io/UGround/">website</a>] [<a href="https://arxiv.org/abs/2410.05243">paper</a>] [<a href="https://github.com/OSU-NLP-Group/UGround">code</a>]</span>
+                <br/><span class="highlight">Oral (1.8%)</span>
+              </li>
+              <li>
+                <span class="paperTitle">ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery
+                </span> <br />
+                <span class="paperAuthor">Ziru Chen, Shijie Chen, Yuting Ning, Qianheng Zhang, Boshi Wang, Botao Yu, Yifei Li, Zeyi Liao, Chen Wei, Zitong Lu, Vishal Dey, Mingyi Xue, Frazier N. Baker, Benjamin Burns, Daniel Adu-Ampratwum, Xuhui Huang, Xia Ning, Song Gao, Yu Su, Huan Sun. In the International Conference on Learning Representations, 2025 (<b>ICLR'25</b>)</span>
+                <span class="paperResource"> [<a href="https://osu-nlp-group.github.io/ScienceAgentBench/">website</a>] [<a href="https://arxiv.org/abs/2410.05080">paper</a>] [<a href="https://github.com/OSU-NLP-Group/ScienceAgentBench">code</a>]</span>
+              </li>
+              <li>
+                <span class="paperTitle">Attention in Large Language Models Yields Efficient Zero-Shot Re-Rankers
+                </span> <br />
+                <span class="paperAuthor">Shijie Chen, Bernal Jiménez Gutiérrez, Yu Su. In the International Conference on Learning Representations, 2025 (<b>ICLR'25</b>)</span>
+                <span class="paperResource"> [<a href="https://arxiv.org/abs/2410.02642">paper</a>] [<a href="https://github.com/OSU-NLP-Group/In-Context-Reranking">code</a>]</span>
+              </li>
+              <li>
+                <span class="paperTitle">VisualAgentBench: Towards Large Multimodal Models as Visual Foundation Agents
+                </span> <br />
+                <span class="paperAuthor">Xiao Liu*, Tianjie Zhang*, Yu Gu*, Iat Long Iong, Yifan Xu, Xixuan Song, Shudan Zhang, Hanyu Lai, Xinyi Liu, Hanlin Zhao, Jiadai Sun, Xinyue Yang, Yu Yang, Zehan Qi, Shuntian Yao, Xueqiao Sun, Siyi Cheng, Qinkai Zheng, Hao Yu, Hanchen Zhang, Wenyi Hong, Ming Ding, Lihang Pan, Xiaotao Gu, Aohan Zeng, Zhengxiao Du, Chan Hee Song, Yu Su, Yuxiao Dong, Jie Tang. In the International Conference on Learning Representations, 2025 (<b>ICLR'25</b>)</span>
+                <span class="paperResource"> [<a href="https://arxiv.org/abs/2408.06327">paper</a>] [<a href="https://github.com/THUDM/VisualAgentBench/">code</a>] (*: Equal Contribution)</span>
+              </li>
+              <li>
+                <span class="paperTitle">HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models
+                </span> <br />
+                <span class="paperAuthor">Bernal Jiménez Gutiérrez, Yiheng Shu, Yu Gu, Michihiro Yasunaga, Yu Su. In the Conference on Neural Information Processing Systems, 2024 (<b>NeurIPS'24</b>)</span>
+                <span class="paperResource"> [<a href="https://arxiv.org/abs/2405.14831">paper</a>] [<a href="https://github.com/OSU-NLP-Group/HippoRAG">code</a>]</span>
+              </li>
+              <li>
+                <span class="paperTitle">Grokked Transformers are Implicit Reasoners: A Mechanistic Journey to the Edge of Generalization
+                </span> <br />
+                <span class="paperAuthor">Boshi Wang, Xiang Yue, Yu Su, Huan Sun. In the Conference on Neural Information Processing Systems, 2024 (<b>NeurIPS'24</b>)</span>
+                <span class="paperResource"> [<a href="https://arxiv.org/abs/2405.15071">paper</a>] [<a href="https://github.com/OSU-NLP-Group/GrokkedTransformer">code</a>]</span>
+              </li>
+              <li>
+                <span class="paperTitle">Fine-Tuning is Fine, if Calibrated
+                </span> <br />
+                <span class="paperAuthor">Zheda Mai, Arpita Chowdhury, Ping Zhang, Cheng-Hao Tu, Hong-You Chen, Vardaan Pahuja, Tanya Berger-Wolf, Song Gao, Charles Stewart, Yu Su, Wei-Lun Chao. In the Conference on Neural Information Processing Systems, 2024 (<b>NeurIPS'24</b>)</span>
+                <span class="paperResource"> [<a href="https://arxiv.org/abs/2409.16223">paper</a>] </span>
+              </li>
+              <li>
+                <span class="paperTitle">VLM4Bio: A Benchmark Dataset to Evaluate Pretrained Vision-Language Models for Trait Discovery from Biological Images
+                </span> <br />
+                <span class="paperAuthor">M Maruf, Arka Daw, Kazi Sajeed Mehrab, Harish Babu Manogaran, Abhilash Neog, Medha Sawhney, Mridul Khurana, James P Balhoff, Yasin Bakis, Bahadir Altintas, Matthew J Thompson, Elizabeth G Campolongo, Josef C Uyeda, Hilmar Lapp, Henry L Bart, Paula M Mabee, Yu Su, Wei-Lun Chao, Charles Stewart, Tanya Berger-Wolf, Wasila Dahdul, Anuj Karpatne. In the Conference on Neural Information Processing Systems, 2024 (<b>NeurIPS'24 D&B</b>)</span>
+                <span class="paperResource"> [<a href="https://arxiv.org/abs/2408.16176">paper</a>] </span>
+              </li>
+              <li>
+                <span class="paperTitle">Middleware for LLMs: Tools are Instrumental for Language Agents in Complex Environments
+                </span> <br />
+                <span class="paperAuthor">Yu Gu, Yiheng Shu, Hao Yu, Xiao Liu, Yuxiao Dong, Jie Tang, Jayanth Srinivasa, Hugo Latapie, Yu Su. In the Conference on Empirical Methods in Natural Language Processing, 2024 (<b>EMNLP'24</b>)</span>
+                <span class="paperResource"> [<a href="https://arxiv.org/abs/2402.14672">paper</a>] </span>
+              </li>
+              <li>
+                <span class="paperTitle">Deductive Beam Search: Decoding Deducible Rationale for Chain-of-Thought Reasoning
+                </span> <br />
+                <span class="paperAuthor">Tinghui Zhu*, Kai Zhang*, Jian Xie, Yu Su. In the Conference on Language Modeling, 2024 (<b>COLM'24</b>)</span></span>
+                <span class="paperResource"> [<a href="https://arxiv.org/abs/2401.17686">paper</a>] [<a href="https://github.com/OSU-NLP-Group/Deductive-Beam-Search">code</a>] (*: Equal Contribution)</span>
+              </li>
+              <li>
+              <span class="paperTitle">Reviving the Context: Camera Trap Species Classification as Link Prediction on Multimodal Knowledge Graphs
+              </span> <br />
+              <span class="paperAuthor">Vardaan Pahuja, Weidi Luo, Yu Gu, Cheng-Hao Tu, Hong-You Chen, Tanya Berger-Wolf, Charles Stewart, Song Gao, Wei-Lun Chao, Yu Su. In the ACM International Conference on Information and Knowledge Management (<b>CIKM'24</b>)</span>
+              <span class="paperResource"> [<a href="https://arxiv.org/abs/2401.00608">paper</a>] </span>
+              </li>
+              <li>
+                <span class="paperTitle">LLMs in the Imaginarium: Tool Learning through Simulated Trial and Error
+                </span> <br />
+                <span class="paperAuthor">Boshi Wang, Hao Fang, Jason Eisner, Benjamin Van Durme, Yu Su. In the Annual Conference of the Association for Computational Linguistics, 2024 (<b>ACL'24</b>)</span>
+                <span class="paperResource"> [<a href="https://arxiv.org/abs/2403.04746">paper</a>][<a href="https://github.com/microsoft/simulated-trial-and-error">code</a>] </span>
+              </li>
+              <li>
+                <span class="paperTitle">When is Tree Search Useful for LLM Planning? It Depends on the Discriminator
+                </span> <br />
+                <span class="paperAuthor">Ziru Chen, Michael White, Raymond Mooney, Ali Payani, Yu Su, Huan Sun. In the Annual Conference of the Association for Computational Linguistics, 2024 (<b>ACL'24</b>)</span>
+                <span class="paperResource"> [<a href="https://arxiv.org/abs/2402.10890">paper</a>] </span>
+              </li>
+              <li>
+                <span class="paperTitle">MagicLens: Self-Supervised Image Retrieval with Open-Ended Instructions
+                </span> <br />
+                <span class="paperAuthor">Kai Zhang, Yi Luan, Hexiang Hu, Kenton Lee, Siyuan Qiao, Wenhu Chen, Yu Su, Ming-Wei Chang. In the International Conference on Machine Learning, 2024 (<b>ICML'24</b>)</span>
+                <span class="paperResource"> [<a href="https://open-vision-language.github.io/MagicLens/">project</a>][<a href="https://arxiv.org/abs/2403.19651">paper</a>] </span>
+                <br/><span class="highlight">Oral (1.5%)</span>
+              </li>
+              <li>
+                <span class="paperTitle">GPT-4V(ision) is a Generalist Web Agent, if Grounded
+                </span> <br />
+                <span class="paperAuthor">Boyuan Zheng, Boyu Gou, Jihyung Kil, Huan Sun, Yu Su. In the International Conference on Machine Learning, 2024 (<b>ICML'24</b>)</span>
+                <span class="paperResource"> [<a href="https://osu-nlp-group.github.io/SeeAct/">project website</a>] [<a href="https://arxiv.org/abs/2401.01614">paper</a>] [<a href="https://github.com/OSU-NLP-Group/SeeAct/">code</a>]</span>
+              </li>
+              <li>
+                <span class="paperTitle">TravelPlanner: A Benchmark for Real-World Planning with Language Agents
+                </span> <br />
+                <span class="paperAuthor">Jian Xie*, Kai Zhang*, Jiangjie Chen, Tinghui Zhu, Renze Lou, Yuandong Tian, Yanghua Xiao, Yu Su. In the International Conference on Machine Learning, 2024 (<b>ICML'24</b>)</span>
+                <span class="paperResource"> [<a href="https://osu-nlp-group.github.io/TravelPlanner/">project website</a>] [<a href="https://arxiv.org/abs/2402.01622">paper</a>] [<a href="https://github.com/OSU-NLP-Group/TravelPlanner">code</a>] (*: Equal Contribution)</span>
+                <br/><span class="highlight">Spotlight (3.5%)</span>
+              </li>
+                <li>
+                  <span class="paperTitle">BioCLIP: A Vision Foundation Model for the Tree of Life
+                  </span> <br />
+                  <span class="paperAuthor">Samuel Stevens*, Jiaman Wu*, Matthew J Thompson, Elizabeth G Campolongo, Chan Hee Song, David Edward Carlyn, Li Dong, Wasila M Dahdul, Charles Stewart, Tanya Berger-Wolf, Wei-Lun Chao, Yu Su. In the Conference on Computer Vision and Pattern Recognition, 2024 (<b>CVPR'24</b>)</span>
+                  <span class="paperResource"> [<a href="https://imageomics.github.io/bioclip/">project website</a>] [<a href="https://arxiv.org/abs/2311.18803">paper</a>] [<a href="https://github.com/Imageomics/BioCLIP">code</a>] (*: Equal Contribution)</span>
+                  <br/><span class="highlight">Best Student Paper</span>
+                </li>
+                <li>
+                  <span class="paperTitle">MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI
+                  </span> <br />
+                  <span class="paperAuthor">Xiang Yue*, Yuansheng Ni, Kai Zhang, Tianyu Zheng, Ruoqi Liu, Ge Zhang, Samuel Stevens, Dongfu Jiang, Weiming Ren, Yuxuan Sun, Cong Wei, Botao Yu, Ruibin Yuan, Renliang Sun, Ming Yin, Boyuan Zheng, Zhenzhu Yang, Yibo Liu, Wenhao Huang, Huan Sun, Yu Su*, Wenhu Chen*. In the Conference on Computer Vision and Pattern Recognition, 2024 (<b>CVPR'24</b>)</span>
+                  <span class="paperResource"> [<a href="https://mmmu-benchmark.github.io/">project website</a>] [<a href="https://arxiv.org/abs/2311.16502">paper</a>] [<a href="https://github.com/MMMU-Benchmark/MMMU">code</a>] [<a href="https://huggingface.co/datasets/MMMU/MMMU">data</a>] (*: corresponding authors)</span>
+                  <br/><span class="highlight">Best Paper Finalist (0.2%); Oral (0.8%)</span>
+                </li>
+                <li>
+                  <span class="paperTitle">Dual-View Visual Contextualization for Web Navigation
+                  </span> <br />
+                  <span class="paperAuthor">Jihyung Kil, Chan Hee Song, Boyuan Zheng, Xiang Deng, Yu Su, Wei-Lun Chao. In the Conference on Computer Vision and Pattern Recognition, 2024 (<b>CVPR'24</b>)</span>
+                  <span class="paperResource"> [<a href="https://arxiv.org/abs/2402.04476">paper</a>]</span>
+                </li>
+                <li>
+                <span class="paperTitle"><i>Adaptive Chameleon or Stubborn Sloth</i>: Revealing the Behavior of Large Language Models in Knowledge Conflicts
+                </span> <br />
+                <span class="paperAuthor">Jian Xie*, Kai Zhang*, Jiangjie Chen, Renze Lou, Yu Su. In the International Conference on Learning Representations, 2024 (<b>ICLR'24</b>)</span>
+                <span class="paperResource"> [<a href="https://arxiv.org/abs/2305.13300">paper</a>] [<a href="https://github.com/OSU-NLP-Group/LLM-Knowledge-Conflict">code</a>] (*: Equal Contribution)</span>
+                <br/><span class="highlight">Spotlight (5%)</span>
+                </li>
+                <li>
+                <span class="paperTitle">MAmmoTH: Building Math Generalist Models through Hybrid Instruction Tuning
+                </span> <br />
+                <span class="paperAuthor">Xiang Yue, Xingwei Qu, Ge Zhang, Yao Fu, Wenhao Huang, Huan Sun, Yu Su, Wenhu Chen. In the International Conference on Learning Representations, 2024 (<b>ICLR'24</b>)</span>
+                <span class="paperResource"> [<a href="https://arxiv.org/abs/2309.05653">paper</a>] [<a href="https://tiger-ai-lab.github.io/MAmmoTH/">project</a>] [<a href="https://github.com/TIGER-AI-Lab/MAmmoTH">code</a>] [<a href="https://huggingface.co/datasets/TIGER-Lab/MathInstruct">data</a>]</span>
+                <br/><span class="highlight">Spotlight (5%)</span>
+                </li>
+                <li>
+                <span class="paperTitle">AgentBench: Evaluating LLMs as Agents
+                </span> <br />
+                <span class="paperAuthor">Xiao Liu*, Hao Yu*, Hanchen Zhang, Yifan Xu, Xuanyu Lei, Hanyu Lai, Yu Gu, Hangliang Ding, Kaiwen Men, Kejuan Yang, Shudan Zhang, Xiang Deng, Aohan Zeng, Zhengxiao Du, Chenhui Zhang, Sheng Shen, Tianjun Zhang, Yu Su, Huan Sun, Minlie Huang, Yuxiao Dong, Jie Tang. In the International Conference on Learning Representations, 2024 (<b>ICLR'24</b>)</span>
+                <span class="paperResource"> [<a href="https://arxiv.org/abs/2308.03688">paper</a>] [<a href="https://github.com/THUDM/AgentBench">code</a>] (*: Equal Contribution) </span>
+                </li>
+                <li>
+                <span class="paperTitle">MUFFIN: Curating Multi-Faceted Instructions for Improving Instruction-Following
+                </span> <br />
+                <span class="paperAuthor">Renze Lou, Kai Zhang, Jian Xie, Yuxuan Sun, Janice Ahn, Hanzi Xu, Yu Su, Wenpeng Yin.  In the International Conference on Learning Representations, 2024 (<b>ICLR'24</b>)</span>
+                <span class="paperResource"> [<a href="https://renzelou.github.io/Muffin/">project website</a>] [<a href="https://arxiv.org/abs/2312.02436">paper</a>] [<a href="https://github.com/RenzeLou/Muffin">code</a>] </span>
+                </li>
+                <li>
+                  <span class="paperTitle">A Simple Interpretable Transformer for Fine-Grained Image Classification and Analysis
+                  </span> <br />
+                  <span class="paperAuthor">Dipanjyoti Paul, Arpita Chowdhury, Xinqi Xiong, Feng-Ju Chang, David Carlyn, Samuel Stevens, Kaiya Provost, Anuj Karpatne, Bryan Carstens, Daniel Rubenstein, Charles Stewart, Tanya Berger-Wolf, Yu Su, Wei-Lun Chao. In the International Conference on Learning Representations, 2024 (<b>ICLR'24</b>)</span>
+                  <span class="paperResource"> [<a href="https://arxiv.org/abs/2311.04157">paper</a>] [<a href="https://github.com/Imageomics/INTR">code</a>] </span>
+                </li>
+                <li>
+                  <span class="paperTitle">Automatic Evaluation of Attribution by Large Language Models</span> <br />
+                  <span class="paperAuthor">Xiang Yue, Boshi Wang, Kai Zhang, Ziru Chen, Yu Su, Huan Sun. In the Findings of the Conference on Empirical Methods in Natural Language Processing, 2023 (<b>EMNLP'23: Findings</b>)</span>
+                  <span class="paperResource"> [<a href="https://arxiv.org/abs/2305.06311">paper</a>] [<a href="https://github.com/OSU-NLP-Group/AttrScore">code</a>] [<a href="https://huggingface.co/datasets/osunlp/AttrScore">data</a>]</span>
+                </li>
+                <li>
+                  <span class="paperTitle">Error Detection for Text-to-SQL Semantic Parsing</span> <br />
+                  <span class="paperAuthor">Shijie Chen, Ziru Chen, Huan Sun, Yu Su.  In the Findings of the Conference on Empirical Methods in Natural Language Processing, 2023 (<b>EMNLP'23: Findings</b>)</span>
+                  <span class="paperResource"> [<a href="https://arxiv.org/abs/2305.13683">paper</a>] [<a href="https://internlp.github.io/2022/documents/2022/papers/25.pdf">InterNLP workshop at NeurIPS'22</a>]</span>
+                </li>
+                <li>
+                  <span class="paperTitle">Solving the Right Problem is Key for Translational NLP: A Case Study in UMLS Vocabulary Insertion</span> <br />
+                  <span class="paperAuthor">Bernal Jimenez Gutierrez, Yuqing Mao, Vinh Nguyen, Kin Wah Fung, Yu Su, Olivier Bodenreider. In the Findings of the Conference on Empirical Methods in Natural Language Processing, 2023 (<b>EMNLP'23: Findings</b>)</span>
+                  <span class="paperResource"> [<a href="https://arxiv.org/abs/2311.15106">paper</a>]</span>
+                </li>
+                <li>
+                  <span class="paperTitle">Mind2Web: Towards a Generalist Agent for the Web
+                  </span> <br />
+                  <span class="paperAuthor">Xiang Deng, Yu Gu, Boyuan Zheng, Shijie Chen, Samuel Stevens, Boshi Wang, Huan Sun, Yu Su. In the Conference on Neural Information Processing Systems, 2023 (<b>NeurIPS'23</b>)</span>
+                  <span class="paperResource"> [<a href="https://arxiv.org/abs/2306.06070">paper</a>] [<a href="https://osu-nlp-group.github.io/Mind2Web/">project website</a>] [<a href="https://github.com/OSU-NLP-Group/Mind2Web">code</a>]</span>
+                  <br/><span class="highlight">Spotlight (5%)</span>
+                </li>
+                <li>
+                  <span class="paperTitle">MagicBrush: A Manually Annotated Dataset for Instruction-Guided Image Editing
+                  </span> <br />
+                  <span class="paperAuthor">Kai Zhang*, Lingbo Mo*, Wenhu Chen, Huan Sun, Yu Su. In the Conference on Neural Information Processing Systems, 2023 (<b>NeurIPS'23</b>)</span>
+                  <span class="paperResource"> [<a href="https://arxiv.org/abs/2306.10012">paper</a>] [<a href="https://osu-nlp-group.github.io/MagicBrush/">project website</a>] [<a href="https://github.com/OSU-NLP-Group/MagicBrush">code</a>] (*: Equal Contribution)</span>
+                  </li>
+                <li>
+                  <span class="paperTitle">Holistic Transfer: Towards Non-Disruptive Fine-Tuning with Partial Target Data
+                  </span> <br />
+                  <span class="paperAuthor">Cheng-Hao Tu, Hong-You Chen, Jike Zhong, Zheda Mai, Vardaan Pahuja, Tanya Berger-Wolf, Song Gao, Charles Stewart, Yu Su, Wei-Lun Chao. In the Conference on Neural Information Processing Systems, 2023 (<b>NeurIPS'23</b>)</span>
+                  <span class="paperResource"> [<a href="https://arxiv.org/abs/2311.01420">paper</a>] </span>
+                </li>
+                <li>
+                <span class="paperTitle">LLM-Planner: Few-Shot Grounded Planning for Embodied Agents with Large Language Models</span> <br />
+                <span class="paperAuthor">Chan Hee Song, Jiaman Wu, Clayton Washington, Brian M. Sadler, Wei-Lun Chao, Yu Su. In the International Conference on Computer Vision, 2023 (<b>ICCV'23</b>) </span>
+                <span class="paperResource"> [<a href="https://arxiv.org/abs/2212.04088">paper</a>] [<a href="https://dki-lab.github.io/LLM-Planner/">project website</a>] [<a href="https://github.com/OSU-NLP-Group/LLM-Planner">code</a>] [<a href="https://embodied-ai.org/papers/2023/7.pdf">Embodied AI workshop at CVPR'23</a>]</span>
+                </li>
+                <li>
+                  <span class="paperTitle">A Retrieve-and-Read Framework for Knowledge Graph Link Prediction</span> <br />
+                  <span class="paperAuthor">Vardaan Pahuja, Boshi Wang, Hugo Latapie, Jayanth Srinivasa, Yu Su. In the ACM International Conference on Information and Knowledge Management, 2023 (<b>CIKM'23</b>)</span>
+                  <span class="paperResource"> [<a href="https://arxiv.org/abs/2212.09724">paper</a>]</span>
+                  </li>
+                <li>
+                <span class="paperTitle">Biomedical Language Models are Robust to Sub-optimal Tokenization</span> <br />
+                <span class="paperAuthor">Bernal Jimenez Gutierrez, Huan Sun, Yu Su. In the 22nd BioNLP Workshop at ACL, 2023 (<b>BioNLP'23</b>)</span>
+                <span class="paperResource"> [<a href="https://arxiv.org/abs/2306.17649">paper</a>] [<a href="https://github.com/OSU-NLP-Group/Bio-Tokenization">code</a>]</span>
+                </li>
+                <li>
+                <span class="paperTitle"><i>Don't Generate, Discriminate</i>: A Proposal for Grounding Language Models to Real-World Environments</span> <br />
+                <span class="paperAuthor">Yu Gu, Xiang Deng, Yu Su. In the Annual Conference of the Association for Computational Linguistics, 2023 (<b>ACL'23</b>)</span>
+                <span class="paperResource"> [<a href="https://arxiv.org/abs/2212.09736">paper</a>] [<a href="https://github.com/dki-lab/Pangu">code</a>]</span>
+                <span class="highlight">Outstanding Paper Award</span>
+                </li>
+                <li>
+                  <span class="paperTitle">Few-shot In-context Learning on Knowledge Base Question Answering</span> <br />
+                  <span class="paperAuthor">Tianle Li, Xueguang Ma, Alex Zhuang, Yu Gu, Yu Su, Wenhu Chen. In the Annual Conference of the Association for Computational Linguistics, 2023 (<b>ACL'23</b>)</span>
+                  <span class="paperResource"> [<a href="https://arxiv.org/abs/2305.01750">paper</a>] [<a href="https://github.com/ltl3A87/KB-BINDER">code</a>]</span>
+                </li>
+                <li>
+                  <span class="paperTitle">Federated Learning for Semantic Parsing: Task Formulation, Evaluation Setup, New Algorithms</span> <br />
+                  <span class="paperAuthor">Tianshu Zhang, Changchang Liu, Wei-Han Lee, Yu Su, Huan Sun. In the Annual Conference of the Association for Computational Linguistics, 2023 (<b>ACL'23</b>)</span>
+                  <span class="paperResource"> [<a href="https://arxiv.org/abs/2305.17221">paper</a>] [<a href="https://github.com/OSU-NLP-Group/FL4SemanticParsing">code</a>]</span>
+                </li>
+                <li>
+                  <span class="paperTitle">Privacy-Preserving Domain Adaptation of Semantic Parsers</span> <br />
+                  <span class="paperAuthor">Fatemehsadat Mireshghallah, Yu Su, Tatsunori Hashimoto, Jason Eisner, Richard Shin. In the Annual Conference of the Association for Computational Linguistics, 2023 (<b>ACL'23</b>)</span>
+                  <span class="paperResource"> [<a href="https://arxiv.org/abs/2212.10520">paper</a>]</span>
+                </li>
+                <li>
+                  <span class="paperTitle">Text-to-SQL Error Correction with Language Models of Code</span> <br />
+                  <span class="paperAuthor">Ziru Chen, Shijie Chen, Michael White, Raymond Mooney, Ali Payani, Jayanth Srinivasa, Yu Su, Huan Sun. In the Annual Conference of the Association for Computational Linguistics, 2023, short paper (<b>ACL'23</b>)</span>
+                  <span class="paperResource"> [<a href="https://arxiv.org/abs/2305.13073">paper</a>] [<a href="https://github.com/OSU-NLP-Group/Auto-SQL-Correction">code</a>]</span>
+                </li>
+                <li>
+                  <span class="paperTitle">Aligning Instruction Tasks Unlocks Large Language Models as Zero-Shot Relation Extractors</span> <br />
+                  <span class="paperAuthor">Kai Zhang, Bernal Jimenez Gutierrez, Yu Su. Findings of the Annual Conference of the Association for Computational Linguistics, 2023 (<b>Findings of ACL'23</b>)</span>
+                  <span class="paperResource"> [<a href="https://arxiv.org/abs/2305.11159">paper</a>] [<a href="https://github.com/OSU-NLP-Group/QA4RE">code</a>] </span>
+                </li>
+                <li>
+                <span class="paperTitle">When More Data Hurts: A Troubling Quirk in Developing Broad-Coverage Natural Language Understanding Systems</span> <br />
+                <span class="paperAuthor">Elias Stengel-Eskin, Emmanouil Antonios Platanios, Adam Pauls, Sam Thomson, Hao Fang, Benjamin Van Durme, Jason Eisner, Yu Su. In the Proc. of the Conference on Empirical Methods in Natural Language Processing, 2022 (<b>EMNLP'22</b>)</span>
+                <span class="paperResource"> [<a href="https://arxiv.org/abs/2205.12228">paper</a>] [<a href="https://github.com/microsoft/nlu-incremental-symbol-learning">code</a>]</span>
+                </li>
+                <li>
+                <span class="paperTitle">Thinking about GPT-3 In-Context Learning for Biomedical IE? Think Again</span> <br />
+                <span class="paperAuthor">Bernal Jiménez Gutiérrez, Nikolas McNeal, Clay Washington, You Chen, Lang Li, Huan Sun, Yu Su. Findings of the Conference on Empirical Methods in Natural Language Processing, 2022 (<b>EMNLP'22: Findings</b>)</span>
+                <span class="paperResource"> [<a href="https://arxiv.org/abs/2203.08410">paper</a>] [<a href="https://github.com/dki-lab/few-shot-bioIE">code</a>]</span>
+                </li>
+                <li>
+                  <span class="paperTitle">Knowledge Base Question Answering: A Semantic Parsing Perspective</span> <br />
+                  <span class="paperAuthor">Yu Gu, Vardaan Pahuja, Gong Cheng, Yu Su. In the Conference on Automated Knowledge Base Construction, 2022 (<b>AKBC'22</b>)</span>
+                  <span class="paperResource"> [<a href="https://arxiv.org/abs/2209.04994"">paper</a>]</span>
+                </li>
+		<li>
+                <span class="paperTitle">ArcaneQA: Dynamic Program Induction and Contextualized Encoding for Knowledge Base Question Answering</span> <br />
+                <span class="paperAuthor">Yu Gu and Yu Su. In the International Conference on Computational Linguistics, 2022 (<b>COLING'22</b>)</span>
+                <span class="paperResource"> [<a href="https://arxiv.org/abs/2204.08109">paper</a>] [<a href="https://github.com/dki-lab/ArcaneQA">code</a>]</span> <br />
+                <span class="highlight">Outstanding Paper Award</span>
+		    </li>
+                <li>
+                  <span class="paperTitle">Bootstrapping a User-Centered Task-Oriented Dialogue System</span> <br />
+                  <span class="paperAuthor">Shijie Chen, Ziru Chen, Xiang Deng, Ashley Lewis, Lingbo Mo, Samuel Stevens, Zhen Wang, Xiang Yue, Tianshu Zhang, Yu Su, Huan Sun. Alexa Prize TaskBot Challenge Proceedings, 2022</span>
+                  <span class="paperResource"> [<a href="https://assets.amazon.science/9a/30/5e4931ec41d78abad730707ce95a/bootstrapping-a-user-centered-task-oriented-dialogue-system.pdf">paper</a>]</span>
+                  </li>
+                <li>
+                  <span class="paperTitle">Detecting Drug-Drug Interactions Between COVID-19 Therapies and Concomitant Medications Using the FDA Adverse Event Reporting System</span> <br />
+                  <span class="paperAuthor">Eugene Jeong, Scott D Nelson, Yu Su, Bradley Malin, Lang Li, You Chen. Frontiers in Pharmacology, 2022</span>
+                  <span class="paperResource"> [<a href="https://www.frontiersin.org/articles/10.3389/fphar.2022.938552/full">paper</a>]</span>
+                <li>
+                <span class="paperTitle">Bridging the Generalization Gap in Text-to-SQL Parsing with Schema Expansion</span> <br />
+                <span class="paperAuthor">Chen Zhao, Yu Su, Adam Pauls, Emmanouil Antonios Platanios. In the Annual Conference of the Association for Computational Linguistics, 2022 (<b>ACL'22</b>)</span>
+                <span class="paperResource"> [<a href="https://aclanthology.org/2022.acl-long.381/">paper</a>] [<a href="https://github.com/microsoft/text-to-sql-schema-expansion-generalization">code</a>]</span>
+                </li>
+                <li>
+                <span class="paperTitle">One Step at a Time: Long-Horizon Vision-and-Language Navigation with Milestones</span> <br />
+                <span class="paperAuthor">Chan Hee Song, Jihyung Kil, Tai-Yu Pan, Brian M. Sadler, Wei-Lun Chao, Yu Su. In the Conference on Computer Vision and Pattern Recognition, 2022 (<b>CVPR'22</b>)</span>
+                <span class="paperResource"> [<a href="https://arxiv.org/abs/2202.07028">paper</a>] [<a href="https://github.com/chanhee-luke/M-Track">code</a>]</span>
+                </li>
+                <li>
+                <span class="paperTitle">Random Control Selection for Conducting High-throughput Adverse Drug Events Screening Using Large-scale Longitudinal Health Data</span> <br />
+                <span class="paperAuthor">Chien-Wei Chiang, Pengyue Zhang, Macarius Donneyong, You Chen, Yu Su, Lang Li. CPT: Pharmacometrics & Systems Pharmacology, 2021 (<b>PSP'21</b>)</span>
+                <span class="paperResource"> [<a href="https://pubmed.ncbi.nlm.nih.gov/34313404/">paper</a>]</span>
+                </li>
+                <li>
+                <span class="paperTitle">An Investigation of Language Model Interpretability via Sentence Editing</span> <br />
+                <span class="paperAuthor">Samuel Stevens and Yu Su. In the Proc. of the BlackboxNLP Workshop at EMNLP, 2021 (<b>BlackboxNLP'21</b>)</span>
+                <span class="paperResource"> [<a href="https://arxiv.org/abs/2011.14039">paper</a>]  [<a href="https://github.com/samuelstevens/sentence-editing-interpretability">code and data</a>]</span>
+                </li>
+                <li>
+                <span class="paperTitle">ReasonBERT: Pre-trained to Reason with Distant Supervision</span> <br />
+                <span class="paperAuthor">Xiang Deng, Yu Su, Alyssa Lees, You Wu, Cong Yu and Huan Sun. In the Proc. of the Conference on Empirical Methods in Natural Language Processing, 2021 (<b>EMNLP'21</b>)</span>
+                <span class="paperResource"> [<a href="https://arxiv.org/abs/2109.04912">paper</a>] [<a href="https://github.com/sunlab-osu/ReasonBERT">code and pre-trained models</a>] </span>
+                </li>
+                <li>
+                <span class="paperTitle">A Systematic Investigation of KB-Text Embedding Alignment at Scale</span> <br />
+                <span class="paperAuthor">Vardaan Pahuja, Yu Gu, Wenhu Chen, Mehdi Bahrami, Lei Liu, Wei-Peng Chen, and Yu Su. In the Proc. of the Annual Conference of the Association for Computational Linguistics, 2021 (<b>ACL'21</b>)</span>
+                <span class="paperResource"> [<a href="https://arxiv.org/abs/2106.01586">paper</a>] [<a href="https://github.com/dki-lab/joint-kb-text-embedding">code</a>]</span>
+                </li>
+                <li>
+                <span class="paperTitle">Compositional Generalization for Neural Semantic Parsing via Span-level Supervised Attention</span> <br />
+                <span class="paperAuthor">Pengcheng Yin, Hao Fang, Graham Neubig, Adam Pauls, Emmanouil Antonios Platanios, Yu Su, Sam Thomson, and Jacob Andreas. In the Proc. of the Annual Conference of the North American Chapter of the Association for Computational Linguistics - Human Language Technologies, 2021, short paper (<b>NAACL-HLT'21</b>)</span>
+                <span class="paperResource"> [<a href="https://www.aclweb.org/anthology/2021.naacl-main.225.pdf">paper</a>]</span>
+                </li>
+                <li>
+                <span class="paperTitle">Beyond I.I.D.: Three Levels of Generalization for Question Answering on Knowledge Bases</span> <br />
+                <span class="paperAuthor">Yu Gu, Sue Kase, Michelle Vanni, Brian Sadler, Percy Liang, Xifeng Yan, and Yu Su. In the Proc. of the Web Conference (previously WWW), 2021 (<b>TheWebConf'21</b>)</span>
+                <span class="paperResource"> [<a href="https://arxiv.org/abs/2011.07743">paper</a>] [<a href="https://dki-lab.github.io/GrailQA/">data and leaderboard</a>] [<a href="https://github.com/dki-lab/GrailQA">code</a>]</span>
+                </li>
+                <li>
+                <span class="paperTitle">Task-Oriented Dialogue as Dataflow Synthesis</span> <br />
+                <span class="paperAuthor">Semantic Machines, Jacob Andreas, John Bufe, David Burkett, Charles Chen, Josh Clausman, Jean Crawford, Kate Crim, Jordan DeLoach, Leah Dorner, Jason Eisner, Hao Fang, Alan Guo, David Hall, Kristin Hayes, Kellie Hill, Diana Ho, Wendy Iwaszuk, Smriti Jha, Dan Klein, Jayant Krishnamurthy, Theo Lanman, Percy Liang, Christopher H. Lin, Ilya Lintsbakh, Andy McGovern, Aleksandr Nisnevich, Adam Pauls, Dmitrij Petters, Brent Read, Dan Roth, Subhro Roy, Jesse Rusak, Beth Short, Div Slomin, Ben Snyder, Stephon Striplin, Yu Su, Zachary Tellman, Sam Thomson, Andrei Vorobev, Izabela Witoszko, Jason Wolfe, Abby Wray, Yuchen Zhang and Alexander Zotov. Transactions of the Association for Computational Linguistics, 2020 (<b>TACL’20</b>)</span>
+                <span class="paperResource"> [<a href="https://www.microsoft.com/en-us/research/blog/dialogue-as-dataflow-a-new-approach-to-conversational-ai/?OCID=msr_blog_semantic_tw">blog</a>][<a href="https://www.mitpressjournals.org/doi/10.1162/tacl_a_00333">paper</a>] [<a href="https://github.com/microsoft/task_oriented_dialogue_as_dataflow_synthesis">code</a>] [<a href="https://microsoft.github.io/task_oriented_dialogue_as_dataflow_synthesis/">data and leaderboard</a>] [<a href="https://youtu.be/ZbpjLchrYgw?t=5908">Satya Nadella's Presentation at Microsoft Build 2019</a>] [<a href="https://www.youtube.com/watch?v=jFCiYlK6Rb8">talk at EMNLP'20</a>]</span> <br />
+                <!-- <span class="paperResource"> [<a href="https://www.microsoft.com/en-us/research/blog/dialogue-as-dataflow-a-new-approach-to-conversational-ai/?OCID=msr_blog_semantic_tw">blog</a>][<a href="https://www.mitpressjournals.org/doi/10.1162/tacl_a_00333">paper</a>] [<a href="https://github.com/microsoft/task_oriented_dialogue_as_dataflow_synthesis">code</a>] [<a href="https://microsoft.github.io/task_oriented_dialogue_as_dataflow_synthesis/">data and leaderboard</a>] [<a href="https://youtu.be/ZbpjLchrYgw?t=5908">Satya Nadella's Presentation at Microsoft Build 2019</a>] [<a href="https://youtu.be/aLSmjr0fQtQ?t=3217">Microsoft Frontiers in Machine Learning 2020</a>] [<a href="https://www.youtube.com/watch?v=jFCiYlK6Rb8">talk at EMNLP'20</a> -- <a href="https://emnlp-2020.herokuapp.com/">most watched video at the conference</a>]</span> 
+                <span class="highlight">Deployed as Conversational Interface of Microsoft Outlook</span>
+                </li>
+                <li>
+                <span class="paperTitle">An Imitation Game for Learning Semantic Parsers from User Interaction</span> <br />
+                <span class="paperAuthor">Ziyu Yao, Yiqi Tang, Wen-tau Yih, Huan Sun, Yu Su. In Proc. of the Conference on Empirical Methods in Natural Language Processing, 2020 (<b>EMNLP’20</b>)</span>
+                <span class="paperResource"> [<a href="https://arxiv.org/abs/2005.00689">paper</a>] [<a href="https://github.com/sunlab-osu/MISP">code</a>]</span>
+                </li>
+                <li>
+                <span class="paperTitle">KGPT: Knowledge-Grounded Pre-Training for Data-to-Text Generation</span> <br />
+                <span class="paperAuthor">Wenhu Chen, Yu Su, Xifeng Yan, William Yang Wang. In Proc. of the Conference on Empirical Methods in Natural Language Processing, 2020 (<b>EMNLP’20</b>)</span>
+                <span class="paperResource"> [<a href="https://arxiv.org/abs/2010.02307">paper</a>] [<a href="https://github.com/wenhuchen/KGPT">code</a>]</span>
+                </li>
+                <li>
+                <span class="paperTitle">Document Classification for COVID-19 Literature</span> <br />
+                <span class="paperAuthor">Bernal Jiménez Gutiérrez, Juncheng Zeng, Dongdong Zhang, Ping Zhang, Yu Su. <b>Findings of EMNLP'20</b>, short paper. Presented at <a href="https://www.nlpcovid19workshop.org/">NLP-COVID</a> workshop at <b>ACL'20</b></i></span>
+                <span class="paperResource"> [<a href="https://arxiv.org/abs/2006.13816">paper</a>]</span>
+                </li>
+                <li>
+                <span class="paperTitle">Logical Natural Language Generation from Open-Domain Tables</span> <br />
+                <span class="paperAuthor">Wenhu Chen, Jianshu Chen, Yu Su, Zhiyu Chen, William Yang Wang. In Proc. of the Annual Conference of the Association for Computational Linguistics, 2020 (<b>ACL’20</b>)</span>
+		<span class="paperResource"> [<a href="https://arxiv.org/abs/2004.10404">paper</a>][<a href="https://github.com/wenhuchen/LogicNLG">code and data</a>]</span>
+                </li>
+                <li>
+		<span class="paperTitle">Model-based Interactive Semantic Parsing: A Unified Formulation and A Text-to-SQL Case Study</span> <br />
+		<span class="paperAuthor">Ziyu Yao, Yu Su, Huan Sun, Scott Wen-tau Yih. In Proc. of the Conference on Empirical Methods in Natural Language Processing, 2019 (<b>EMNLP’19</b>)</span>
+		<span class="paperResource"> [<a href="https://arxiv.org/abs/1910.05389">paper</a>][<a href="https://github.com/sunlab-osu/MISP">code</a>]</span>
+		</li>
+		<li>
+		<span class="paperTitle">HierCon: Hierarchical Organization of Technical Documents based on Concepts</span> <br />
+		<span class="paperAuthor">Keqian Li, Shiyang Li, Semih Yavuz, Hanwen Zha, Yu Su, and Xifeng Yan. In Proc. of the IEEE International Conference on Data Mining, 2019 (<b>ICDM’19</b>)</span>
+		<span class="paperResource"> [<a href="papers/icdm19_hiercon.pdf">paper</a>]</span> <br />
+                <span class="highlight">Best of ICDM 2019 Selection</span>
+                </li>
+		<li>
+		<span class="paperTitle">Global Textual Relation Embedding for Relational Understanding</span> <br />
+		<span class="paperAuthor">Zhiyu Chen, Hanwen Zha, Honglei Liu, Wenhu Chen, Xifeng Yan and Yu Su. In Proc. of the Annual Conference of the Association for Computational Linguistics, 2019, short paper (<b>ACL’19</b>)</span>
+		<span class="paperResource"> [<a href="https://arxiv.org/abs/1906.00550">paper</a>] [<a href="https://github.com/czyssrs/GloREPlus">code and data</a>]</span>
+		</li>
+		<li>
+		<span class="paperTitle">How Large A Vocabulary Does Text Classification Need? A Variational Approach on Vocabulary Selection</span> <br />
+		<span class="paperAuthor">Wenhu Chen, Yu Su, Yilin Shen, Zhiyu Chen, Xifeng Yan and William Yang Wang. In Proc. of the Annual Conference of the North American Chapter of the Association for Computational Linguistics, 2019 (<b>NAACL-HLT’19</b>)</span>
+		<span class="paperResource"> [<a href="https://128.84.21.199/abs/1902.10339">paper</a>]</span>
+		</li>
+		<li>
+		<span class="paperTitle">Learning to Compose Topic-Aware Mixture of Experts for Zero-Shot Video Captioning</span> <br />
+		<span class="paperAuthor">Xin Wang, Jiawei Wu, Da Zhang, Yu Su, William Yang Wang. In Proc. of the AAAI Conference on Artificial Intelligence, 2019 (<b>AAAI’19</b>)</span>
+		<span class="paperResource"> [<a href="https://arxiv.org/abs/1811.02765">paper</a>]</span>
+		</li>
+		<li>
+		<span class="paperTitle">Concept Mining via Embedding</span> <br />
+		<span class="paperAuthor">Keqian Li, Hanwen Zha, Yu Su, Xifeng Yan. In Proc. of the IEEE International Conference on Data Mining, 2018 (<b>ICDM’18</b>)</span>
+		<span class="paperResource"> [<a href="papers/icdm18_concept.pdf">paper</a>]</span>
+		</li>
+		<li>
+		<span class="paperTitle">XL-NBT: A Cross-lingual Neural Belief Tracking Framework</span> <br />
+		<span class="paperAuthor">Wenhu Chen, Jianshu Chen, Yu Su, Xin Wang, Dong Yu, Xifeng Yan and William Yang Wang. In Proc. of the Conference on Empirical Methods in Natural Language Processing, 2018 (<b>EMNLP’18</b>)</span>
+		<span class="paperResource"> [<a href="https://arxiv.org/abs/1808.06244">paper</a>]</span>
+		</li>
+		<li>
+		<span class="paperTitle">What It Takes to Achieve 100% Condition Accuracy on WikiSQL</span> <br />
+		<span class="paperAuthor">Semih Yavuz, Izzeddin Gur, Yu Su and Xifeng Yan. In Proc. of the Conference on Empirical Methods in Natural Language Processing, 2018 (<b>EMNLP’18</b>)</span>
+		<span class="paperResource"> [<a href="http://aclweb.org/anthology/D18-1197">paper</a>]</span>
+		</li>
+		<li>
+		<span class="paperTitle">DialSQL: Dialogue Based Structured Query Generation</span> <br />
+		<span class="paperAuthor">Izzeddin Gur, Semih Yavuz, Yu Su, Xifeng Yan. In Proc. of the Annual Meeting of the Association for Computational Linguistics, 2018, oral (<b>ACL’18</b>)</span>
+		<span class="paperResource"> [<a href="papers/acl18_dialsql.pdf">paper</a>]</span>
+		</li>
+		<li>
+		<span class="paperTitle">Natural Language Interfaces with Fine-Grained User Interaction: A Case Study on Web APIs</span> <br />
+                <span class="paperAuthor">Yu Su, Ahmed Hassan Awadallah, Miaosen Wang, Ryen White. In Proc. of the International ACM SIGIR Conference on Research and Development in Information Retrieval, 2018, oral (<b>SIGIR’18</b>)</span>
+		<span class="paperResource"> [<a href="papers/sigir18_interactive_nli.pdf">paper</a>] [<a href="https://www.microsoft.com/en-us/research/blog/democratizing-apis-with-natural-language-interfaces/">Microsoft Research Blog</a>]</span>
+		</li>
+		<li>
+		<span class="paperTitle">Global Relation Embedding for Relation Extraction</span> <br />
+                <span class="paperAuthor">Yu Su*, Honglei Liu*, Semih Yavuz, Izzeddin Gur, Huan Sun, Xifeng Yan. In Proc. of the Annual Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, 2018 (<b>NAACL-HLT’18</b>)</span>
+                <span class="paperResource"> [<a href="https://arxiv.org/abs/1704.05958">paper</a>] [<a href="https://github.com/ppuliu/GloRE">code</a>] (*: Equal Contribution)</span>
+		</li>
+		<li>
+                <span class="paperTitle">Unsupervised Neural Categorization for Scientific Publications</span> <br />
+                <span class="paperAuthor">Keqian Li, Hanwen Zha, Yu Su, Xifeng Yan. In Proc. of the SIAM International Conference on Data Mining, 2018, oral (<b>SDM’18</b>)</span>
+                <span class="paperResource"> [<a href="papers/sdm18_categorization.pdf">paper</a>] </span>
+		</li>
+		<li>
+                <span class="paperTitle">Building Natural Language Interfaces to Web APIs</span> <br />
+                <span class="paperAuthor">Yu Su, Ahmed Hassan Awadallah, Madian Khabsa, Patrick Pantel, Michael Gamon, Mark Encarnacion. In Proc. of the ACM International Conference on Information and Knowledge Management, 2017, oral (<b>CIKM’17</b>)</span>
+                <span class="paperResource"> [<a href="papers/cikm17_nl2api.pdf">paper</a>] [<a href="https://www.microsoft.com/en-us/download/details.aspx?id=58222">data</a>] </span>
+		</li>
+		<li>
+                <span class="paperTitle">Cross-domain Semantic Parsing via Paraphrasing</span> <br />
+                <span class="paperAuthor">Yu Su, Xifeng Yan. In Proc. of the 2017 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP’17</b>)</span>
+                <span class="paperResource"> [<a href="https://arxiv.org/abs/1704.05974">paper</a>] [<a href="https://github.com/ysu1989/CrossSemparse">code</a>]</span>
+                </li>
+		<li>
+                <span class="paperTitle">An End-to-End Deep Framework for Answer Triggering with a Novel Group-Level Objective</span> <br />
+		<span class="paperAuthor">Jie Zhao, Yu Su, Ziyu Guan, Huan Sun. In Proc. of the 2017 Conference on Empirical Methods in Natural Language Processing, short paper (<b>EMNLP’17</b>)</span>
+                <span class="paperResource"> [<a href="papers/emnlp17_answer_triggering.pdf">paper</a>] </span>
+                </li>
+		<li>
+                <span class="paperTitle">Recovering Question Answering Errors via Query Revision</span> <br />
+		<span class="paperAuthor">Semih Yavuz, Izzeddin Gur, Yu Su, Xifeng Yan. In Proc. of the 2017 Conference on Empirical Methods in Natural Language Processing, short paper (<b>EMNLP’17</b>)</span>
+                <span class="paperResource"> [<a href="papers/emnlp17_question_revision.pdf">paper</a>] </span>
+                </li>  
+                <li>
+                <span class="paperTitle">On Generating Characteristic-rich Question Sets for QA Evaluation</span> <br />
+                <span class="paperAuthor">Yu Su, Huan Sun, Brian Sadler, Mudhakar Srivatsa, Izzeddin Gur, Zenghui Yan, Xifeng Yan. In Proc. of the 2016 Conference on Empirical Methods in Natural Language Processing (<b>EMNLP’16</b>)</span>
+                <span class="paperResource"> [<a href="papers/emnlp16_graphquestions.pdf">paper</a>] [<a href="papers/emnlp16_graphquestions_appendix.pdf">appendix</a>] [<a href="https://github.com/ysu1989/GraphQuestions">data</a>] </span>
+                </li>
+                <li>
+                <span class="paperTitle">Improving Semantic Parsing via Answer Type Inference</span> <br />
+                <span class="paperAuthor">Semih Yavuz, Izzeddin Gur, Yu Su, Mudhakar Srivatsa, Xifeng Yan. In Proc. of the 2016 Conference on Empirical Methods in Natural Language Processing, oral (<b>EMNLP’16</b>)</span>
+                <span class="paperResource"> [<a href="papers/emnlp16_type.pdf">paper</a>] </span>
+                </li>
+                <li>
+                <span class="paperTitle">A Fast Kernel for Attributed Graphs</span> <br />
+                <span class="paperAuthor">Yu Su, Fangqiu Han, Richard E. Harang, Xifeng Yan. In Proc. of the SIAM International Conference on Data Mining, 2016, oral (<b>SDM’16</b>)</span>
+                <span class="paperResource"> [<a href="papers/sdm16_kernel.pdf">paper</a>] [<a href="papers/sdm16_kernel_appendix.pdf">appendix</a>] [<a href="papers/sdm16_kernel_slides.pptx">slides</a>] [<a href="papers/sdm16_kernel_poster.pdf">poster</a>] </span>
+                </li>
+
+                <li>
+                <span class="paperTitle">Table Cell Search for Question Answering</span> <br />
+                <span class="paperAuthor">Huan Sun, Hao Ma, Xiaodong He, Wen-Tau Yih, Yu Su, Xifeng Yan. In Proc. of the International World Wide Web Conference, 2016, oral (<b>WWW’16</b>)</span>
+                <span class="paperResource"> [<a href="papers/www16_table.pdf">paper</a>]  </span>
+                </li>
+
+                <li>
+                <span class="paperTitle">Visual Graph Query Formulation and Exploration: A New Perspective on Information Retrieval at the Edge</span> <br />
+                <span class="paperAuthor">Sue Kase, Michelle Vanni, Joanne Knight, Yu Su, Xifeng Yan. In Proc. of SPIE 9851, Next-Generation Analyst IV, 2016 (<b>SPIE Defense+Security’16</b>)</span>
+                </li>
+
+                <li>
+                <span class="paperTitle">Exploiting Relevance Feedback in Knowledge Graph Search</span> <br />
+                <span class="paperAuthor">Yu Su, Shengqi Yang, Huan Sun, Mudhakar Srivatsa, Sue Kase, Michelle Vanni, Xifeng Yan. In Proc. of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, 2015, oral (<b>KDD’15</b>)</span>
+<span class="paperResource"> [<a href="papers/kdd15_feedback.pdf">paper</a>] [<a href="papers/kdd15_feedback_slides.pptx">slides</a>] [<a href="papers/kdd15_feedback_poster.pdf">poster</a>] [<a href="resources/grf_dataset.zip">data</a>] </span>
+                </li>
+
+                <li>
+                <span class="paperTitle">On the Validity of Geosocial Mobility Traces</span> <br />
+                <span class="paperAuthor">Zengbin Zhang, Lin Zhou, Xiaohan Zhao, Gang Wang, Yu Su, Miriam Metzger, Haitao Zheng, and Ben Y. Zhao. In Proc. of the ACM Workshop on Hot Topics in Networks, 2013 (<b>HotNets’13</b>)</span>
+                <span class="paperResource"> [<a href="papers/hotnets13_foursquare.pdf">paper</a>] </span>
+                </li>
+            </ul> -->
+      <!-- </div> -->
+    <!-- </div> -->
+
+    <!-- <div class="contentBlock">
+      <a name="teaching"></a>
+      <h2>Teaching</h2>
+      <div class="divider"></div>
+      <ul>
+          <li>AU2022-2024: CSE6521 - Introduction to Artificial Intelligence</a> (Graduate) </li>
+          <li>SP2022: CSE5525 - Foundations of Speech and Language Processing</a> (Undergrad & Graduate) </li>
+          <li>AU2021: CSE6521 - Introduction to Artificial Intelligence</a> (Graduate) </li>
+          <li>AU2020: <a href="courses/au20/cse5539/">CSE5539 - Cutting-Edge Topics in Natural Language Processing</a> (Undergrad & Graduate)</li>
+          <li>SP2020: <a href="courses/sp20/cse5243/">CSE5243 - Introduction to Data Mining</a> (Undergrad & Graduate)</li>
+      </ul>
+  </div> -->
+    
+
+    <!-- <div class="contentBlock">
+    	<a name="sponsors"></a>
+        <h2>Sponsers</h2>
+        <div class="divider"></div>
+        <ul>
+        	<li>We are grateful for NSF (awards 
+			<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2443149&HistoricalAwards=false">2443149</a>, 
+            <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2118240&HistoricalAwards=false">2118240</a>, 
+            <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2112606&HistoricalAwards=false">2112606</a>),
+            ARL, NIH, NAIRR, Open Philanthropy, Schmidt Sciences, Alfred P. Sloan Foundation, Amazon, Apple, Orby AI, Cisco, Intuit, Walmart, Fujitsu, and OSU TDAI for supporting our research.
+          </li>
+        </ul>
+    </div> -->
+
+    <div class="contentBlock">
+    	<a name="contact"></a>
+        <h2>Contact</h2>
+        <div class="divider"></div>
+        <ul>
+        	<li>Email: zhyue05@gmail.com </li>
+        </ul>
+    </div>
+
+
+  </div>
+
+</body>
 </html>
